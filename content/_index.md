@@ -82,46 +82,48 @@ sections:
  
 - block: portfolio
   content:
-    buttons:
-    - name: All
-      tag: '*'
-    - name: Deep Learning
-      tag: Deep Learning
-    - name: Other
-      tag: Demo
-    default_button_index: 0
+    # buttons:
+    # - name: All
+    #   tag: '*'
+    # - name: Deep Learning
+    #   tag: Deep Learning
+    # - name: Other
+    #   tag: Demo
+    # default_button_index: 0
     filters:
       folders:
       - project
     title: Research
   design:
-    columns: "1"
-    flip_alt_rows: false
+    columns: "2"
+    flip_alt_rows: true
     view: showcase
   id: research  
   
   
   
   
-- block: portfolio
-  content:
-    buttons:
-    - name: All
-      tag: '*'
-    - name: Deep Learning
-      tag: Deep Learning
-    - name: Other
-      tag: Demo
-    default_button_index: 0
-    filters:
-      folders:
-      - project
-    title: Projects
-  design:
-    columns: "1"
-    flip_alt_rows: false
-    view: showcase
-  id: projects
+# - block: portfolio
+#   content:
+#     buttons:
+#     - name: All
+#       tag: '*'
+#     - name: Deep Learning
+#       tag: Deep Learning
+#     - name: Other
+#       tag: Demo
+#     default_button_index: 0
+#     filters:
+#       folders:
+#       - project
+#     title: Projects
+#   design:
+#     columns: "2"
+#     flip_alt_rows: false
+#     view: list
+#   id: projects
+
+
   
 
 - block: features
@@ -140,7 +142,9 @@ sections:
       icon_pack: fa
       name: Dynare, Python, Git, 
     title: Skills
-    
+
+
+
 # - block: accomplishments
 #   content:
 #     date_format: Jan 2006
@@ -247,11 +251,13 @@ sections:
 #     title: Popular Topics
 #   design:
 #     columns: "2"
+
+
 - block: contact
   content:
     address:
-      city: Stanford
-      country: United States
+      city: Sheffield
+      country: United Kingdom
       country_code: US
       postcode: "S1 4DT"
       region: 
@@ -261,7 +267,7 @@ sections:
     contact_links:
     - icon: twitter
       icon_pack: fab
-      link: https://twitter.com/Twitter
+      link: https://twitter.com/MLitainas
       name: DM Me
     # - icon: skype
     #   icon_pack: fab
@@ -271,7 +277,7 @@ sections:
     #   icon_pack: fas
     #   link: https://zoom.com
     #   name: Zoom Me
-    directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+    # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
     email: mlitainas1@sheffield.ac.uk
     form:
       formspree:
