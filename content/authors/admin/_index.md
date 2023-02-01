@@ -1,6 +1,5 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio:
   
 education:
   courses:
@@ -13,6 +12,7 @@ education:
   - course: BSc in Economics
     institution: Massachusetts Institute of Technology
     year: 2008
+    
 email: "mlitainas1@sheffield.ac.uk"
 first_name: Michael
 highlight_name: true
@@ -23,9 +23,9 @@ interests:
 - Information Retrieval
 last_name: Wu
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+- name: University of Sheffield
+  url: https://www.sheffield.ac.uk/economics
+role: PhD student in Economics
 social:
 - icon: envelope
   icon_pack: fas
@@ -35,16 +35,16 @@ social:
   icon: twitter
   icon_pack: fab
   label: Follow me on Twitter
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/MLitainas
 - icon: graduation-cap
   icon_pack: fas
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://github.com/mlitainas
+# - icon: linkedin
+#   icon_pack: fab
+#   link: https://www.linkedin.com/
 - icon: cv
   icon_pack: ai
   link: uploads/resume.pdf
@@ -54,5 +54,6 @@ superuser: true
 title: Michael Litainas
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+A PhD student with a strong interest in Applied Macroeconomics. My current research projects are focused on fiscal policy, news shocks and the estimation of spillovers. I work with SVAR, GVAR and time-series panel data models. I enjoy programming in R.
 {style="text-align: justify;"}
+

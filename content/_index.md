@@ -1,6 +1,5 @@
 ---
 date: "2022-10-24"
-sections:
 # - block: hero
 #   content:
 #     cta:
@@ -35,6 +34,8 @@ sections:
 #       gradient_end: '#1976d2'
 #       gradient_start: '#004ba0'
 #       text_color_light: true
+
+sections:
 - block: about.avatar
   content:
     text: null
@@ -45,46 +46,99 @@ sections:
   content:
     date_format: Jan 2006
     items:
-    - company: GenCoin
-      company_logo: org-gc
-      company_url: ""
-      date_end: ""
-      date_start: "2021-01-01"
-      description: |2-
-          Responsibilities include:
-
-          * Analysing
-          * Modelling
-          * Deploying
-      location: California
-      title: CEO
-    - company: University X
+    - company: University of Sheffield
       company_logo: org-x
-      company_url: ""
-      date_end: "2020-12-31"
+      company_url: "https://www.sheffield.ac.uk/economics"
+      date_end: ""
       date_start: "2016-01-01"
-      description: Taught electronic engineering and researched semiconductor physics.
-      location: California
-      title: Professor of Semiconductor Physics
+      description: |3-
+            Modules:
+          
+            * Mathematical Methods for Economics
+            * Intermediate Macroeconomics
+      location: Sheffield, UK
+      title: Graduate teaching Assistant
+      
+    - company: CEDEFOP
+      company_logo: org-gc
+      company_url: "https://www.cedefop.europa.eu/en"
+      date_end: "2019-07-01"
+      date_start: "2018-10-01"
+      # description: |2-
+      #     Responsibilities include:
+      # 
+      #     * Analysing
+      #     * Modelling
+      #     * Deploying
+      location: Thessaloniki, Greece
+      title: Trainee - Department of Skills and Labour Markets
+    
     title: Experience
   design:
     columns: "2"
     
+   
+
+ 
+- block: portfolio
+  content:
+    buttons:
+    - name: All
+      tag: '*'
+    - name: Deep Learning
+      tag: Deep Learning
+    - name: Other
+      tag: Demo
+    default_button_index: 0
+    filters:
+      folders:
+      - project
+    title: Research
+  design:
+    columns: "1"
+    flip_alt_rows: false
+    view: showcase
+  id: research  
+  
+  
+  
+  
+- block: portfolio
+  content:
+    buttons:
+    - name: All
+      tag: '*'
+    - name: Deep Learning
+      tag: Deep Learning
+    - name: Other
+      tag: Demo
+    default_button_index: 0
+    filters:
+      folders:
+      - project
+    title: Projects
+  design:
+    columns: "1"
+    flip_alt_rows: false
+    view: showcase
+  id: projects
+  
+
 - block: features
   content:
     items:
-    - description: 90%
-      icon: r-project
-      icon_pack: fab
-      name: R
-    - description: 100%
+    - description: Advanced
+      icon: code
+      icon_pack: fas
+      name: R, Matlab
+    - description: Intermediate
       icon: chart-line
       icon_pack: fas
-      name: Statistics
-    - description: 10%
-      icon: camera-retro
-      icon_pack: fas
-      name: Photography
+      name: Stata, Latex
+    - description: Basic
+      icon: terminal
+      icon_pack: fa
+      name: Dynare, Python, Git, 
     title: Skills
     
 # - block: accomplishments
@@ -121,49 +175,31 @@ sections:
 #     columns: "2"
     
     
-- block: collection
-  content:
-    count: 5
-    filters:
-      author: ""
-      category: ""
-      exclude_featured: false
-      exclude_future: false
-      exclude_past: false
-      folders:
-      - post
-      publication_type: ""
-      tag: ""
-    offset: 0
-    order: desc
-    subtitle: ""
-    text: ""
-    title: Recent Posts
-  design:
-    columns: "2"
-    view: compact
-  id: posts
+# - block: collection
+#   content:
+#     count: 5
+#     filters:
+#       author: ""
+#       category: ""
+#       exclude_featured: false
+#       exclude_future: false
+#       exclude_past: false
+#       folders:
+#       - post
+#       publication_type: ""
+#       tag: ""
+#     offset: 0
+#     order: desc
+#     subtitle: ""
+#     text: ""
+#     title: Recent Posts
+#   design:
+#     columns: "2"
+#     view: compact
+#   id: posts
+#   
   
-  
-- block: portfolio
-  content:
-    buttons:
-    - name: All
-      tag: '*'
-    - name: Deep Learning
-      tag: Deep Learning
-    - name: Other
-      tag: Demo
-    default_button_index: 0
-    filters:
-      folders:
-      - project
-    title: Projects
-  design:
-    columns: "1"
-    flip_alt_rows: false
-    view: showcase
-  id: projects
+
 # - block: markdown
 #   content:
 #     subtitle: ""
@@ -217,9 +253,9 @@ sections:
       city: Stanford
       country: United States
       country_code: US
-      postcode: "94305"
-      region: CA
-      street: 450 Serra Mall
+      postcode: "S1 4DT"
+      region: 
+      street: 9 Mappin Street
     # appointment_url: https://calendly.com
     # autolink: true
     contact_links:
@@ -236,7 +272,7 @@ sections:
     #   link: https://zoom.com
     #   name: Zoom Me
     directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-    email: test@example.org
+    email: mlitainas1@sheffield.ac.uk
     form:
       formspree:
         id: null
