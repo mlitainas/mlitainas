@@ -40,6 +40,7 @@ sections:
   content:
     text: null
     username: admin
+    
   id: about
 
 - block: experience
